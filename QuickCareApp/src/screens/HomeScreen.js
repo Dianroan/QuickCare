@@ -1,11 +1,15 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Linking, Image } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Animatable from 'react-native-animatable';
 
 const HomeScreen = ({ navigation }) => {
   const handleCall = () => {
     Linking.openURL('tel:911');
+  };
+
+  const handleLocation = () => {
+    navigation.navigate('HospitalMap'); // pantalla que haremos después
   };
 
   return (
@@ -18,15 +22,23 @@ const HomeScreen = ({ navigation }) => {
 
       <Text style={styles.title}>Primeros Auxilios Interactivos</Text>
 
-      <TouchableOpacity style={styles.buttonRed} onPress={() => navigation.navigate('EmergencyHome')}>
-        <Ionicons name="alert-circle" size={22} color="#fff" style={styles.icon} />
-        <Text style={styles.buttonText}>Modo Emergencia</Text>
-      </TouchableOpacity>
+      <View style={styles.buttonGroup}>
 
-      <TouchableOpacity style={styles.buttonBlue} onPress={() => navigation.navigate('EducationHome')}>
-        <Ionicons name="book" size={22} color="#fff" style={styles.icon} />
-        <Text style={styles.buttonText}>Modo Educativo</Text>
-      </TouchableOpacity>
+        <TouchableOpacity style={styles.bigButtonRed} onPress={() => navigation.navigate('EmergencyHome')}>
+          <Ionicons name="medical" size={32} color="#fff" style={styles.iconLarge} />
+          <Text style={styles.bigButtonText}>Modo Emergencia</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.bigButtonBlue} onPress={() => navigation.navigate('EducationHome')}>
+          <Ionicons name="book" size={30} color="#fff" style={styles.iconLarge} />
+          <Text style={styles.bigButtonText}>Modo Educativo</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.bigButtonDark} onPress={handleLocation}>
+          <MaterialCommunityIcons name="hospital-marker" size={30} color="#fff" style={styles.iconLarge} />
+          <Text style={styles.bigButtonText}>Hospitales cercanos</Text>
+        </TouchableOpacity>
+      </View>
 
       <TouchableOpacity style={styles.callButton} onPress={handleCall}>
         <Ionicons name="call" size={20} color="#fff" />
@@ -42,47 +54,53 @@ const styles = StyleSheet.create({
     backgroundColor: '#f9f9f9',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 20,
+    paddingHorizontal: 24,
+    paddingTop: 40,
+    paddingBottom: 80,
   },
   logo: {
     width: 140,
     height: 140,
-    marginBottom: 15,
+    marginBottom: 20,
     resizeMode: 'contain',
   },
   title: {
     fontSize: 26,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginBottom: 40,
+    marginBottom: 30,
     color: '#222',
   },
-  buttonRed: {
-    flexDirection: 'row',
-    alignItems: 'center',
+  buttonGroup: {
+    width: '100%',
+    gap: 18,
+  },
+  bigButtonRed: {
     backgroundColor: '#ff3b30',
-    padding: 18,
-    borderRadius: 15,
-    width: '100%',
-    marginBottom: 15,
-  },
-  buttonBlue: {
-    flexDirection: 'row',
+    borderRadius: 20,
+    padding: 24,
     alignItems: 'center',
+  },
+  bigButtonBlue: {
     backgroundColor: '#007aff',
-    padding: 18,
-    borderRadius: 15,
-    width: '100%',
-    marginBottom: 40,
+    borderRadius: 20,
+    padding: 24,
+    alignItems: 'center',
   },
-  buttonText: {
+  bigButtonDark: {
+    backgroundColor: '#1c1c1e',
+    borderRadius: 20,
+    padding: 24,
+    alignItems: 'center',
+  },
+  bigButtonText: {
     color: '#fff',
-    fontSize: 18,
-    textAlign: 'center',
-    flex: 1,
+    fontSize: 20,
+    fontWeight: '600',
+    marginTop: 10,
   },
-  icon: {
-    marginRight: 10,
+  iconLarge: {
+    marginBottom: 5,
   },
   callButton: {
     flexDirection: 'row',
@@ -90,7 +108,7 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 100,
     position: 'absolute',
-    bottom: 40,
+    bottom: 25,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 30,

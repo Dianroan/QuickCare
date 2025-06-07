@@ -5,6 +5,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 import EmergencyHomeScreen from "./src/screens/EmergencyHomeScreen";
 import EducationHomeScreen from "./src/screens/EducationHomeScreen";
 import SplashScreen from "./src/screens/SplashScreen";
+import HospitalMapScreen from "./src/screens/HospitalMapScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -16,7 +17,7 @@ export default function App() {
           name="Splash"
           component={SplashScreen}
           options={{ headerShown: false }}
-        /> 
+        />
         <Stack.Screen
           name="Home"
           component={HomeScreen}
@@ -31,6 +32,11 @@ export default function App() {
           name="EducationHome"
           component={EducationHomeScreen}
           options={{ title: "Modo Educativo" }}
+        />
+        <Stack.Screen
+          name="HospitalMap"
+          component={HospitalMapScreen}
+          options={{ title: "Hospitales Cercanos" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
