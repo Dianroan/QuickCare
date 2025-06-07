@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, ActivityIndicator, StyleSheet } from 'react-native';
 import * as Location from 'expo-location';
+import Constants from 'expo-constants'; // <-- Importa aquí la clave de extra
 
 const HospitalMapView = () => {
   const [location, setLocation] = useState(null);
@@ -29,7 +30,10 @@ const HospitalMapView = () => {
     );
   }
 
-  const mapUrl = `https://www.google.com/maps/embed/v1/search?key=AIzaSyDn1xJk9ihBMJhGEFtDsJErO_7PJ1pphFg&q=hospital&center=${location.latitude},${location.longitude}&zoom=13`;
+  // ✅ Usamos la API key desde app.json (extra)
+  const apiKey = Constants.expoConfig.extra.expoPublicGoogleMapsKey;
+
+  const mapUrl = `https://www.google.com/maps/embed/v1/search?key=${apiKey}&q=hospital&center=${location.latitude},${location.longitude}&zoom=13`;
 
   return (
     <View style={styles.webContainer}>
@@ -46,7 +50,11 @@ const HospitalMapView = () => {
 };
 
 const styles = StyleSheet.create({
-  loader: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+  loader: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   webContainer: {
     flex: 1,
     width: '100%',

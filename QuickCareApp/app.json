@@ -24,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "expoPublicGoogleMapsKey": "AIzaSyDn1xJk9ihBMJhGEFtDsJErO_7PJ1pphFg"
     }
   }
 }
