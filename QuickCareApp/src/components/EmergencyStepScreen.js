@@ -1,6 +1,6 @@
 // src/components/EmergencyStepScreen.js
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Linking, Platform } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Linking, Platform, Image, ScrollView } from 'react-native';
 import * as Speech from 'expo-speech';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -9,7 +9,7 @@ const EmergencyStepScreen = ({ title, steps, onFinish, navigation }) => {
   const currentStep = steps[stepIndex];
 
   useEffect(() => {
-    speak(currentStep);
+    speak(currentStep.text);
   }, [stepIndex]);
 
   const speak = (text) => {
@@ -40,14 +40,17 @@ const EmergencyStepScreen = ({ title, steps, onFinish, navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
 
-      <View style={styles.card}>
-        <Text style={styles.stepText}>{currentStep}</Text>
+      <ScrollView contentContainerStyle={styles.card}>
+        {currentStep.image && (
+          <Image source={{ uri: currentStep.image }} style={styles.image} resizeMode="cover" />
+        )}
+        <Text style={styles.stepText}>{currentStep.text}</Text>
 
-        <TouchableOpacity style={styles.repeatButton} onPress={() => speak(currentStep)}>
+        <TouchableOpacity style={styles.repeatButton} onPress={() => speak(currentStep.text)}>
           <Ionicons name="volume-high-outline" size={28} color="#fff" />
           <Text style={styles.repeatText}>Repetir</Text>
         </TouchableOpacity>
-      </View>
+      </ScrollView>
 
       <TouchableOpacity style={styles.callButton} onPress={call911}>
         <Ionicons name="call" size={24} color="#fff" />
@@ -101,6 +104,12 @@ const styles = StyleSheet.create({
     padding: 25,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  image: {
+    width: '100%',
+    height: 200,
+    borderRadius: 12,
+    marginBottom: 20,
   },
   stepText: {
     fontSize: 20,
