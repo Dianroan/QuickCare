@@ -4,7 +4,7 @@
     "slug": "QuickCareApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/QuickCareIcon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -23,7 +23,7 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/QuickCareIcon.png"
     },
     "extra": {
       "expoPublicGoogleMapsKey": "AIzaSyDn1xJk9ihBMJhGEFtDsJErO_7PJ1pphFg"
