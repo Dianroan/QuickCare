@@ -4,34 +4,39 @@ import EmergencyStepScreen from "../../components/EmergencyStepScreen";
 
 const steps = [
     {
-        text: "Pregunta a la persona si puede toser, hablar o respirar. Si no puede, actúa rápidamente.",
+        text: "Verifica que el entorno sea seguro antes de acercarte a la persona.",
         image:
-            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Choking%2FChokingStep1.png?alt=media&token=bd7fa6cc-3745-409b-9f2a-d1a5dd96b719",
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep1.png?alt=media&token=f8b9ec0e-4c58-4c76-aef2-f23fbe76b819",
     },
     {
-        text: "Llama al 911 o pide a alguien que lo haga mientras inicias maniobras de desobstrucción.",
+        text: "Identifica, si es posible, qué sustancia causó la intoxicación (envase, olor, síntomas, etc.).",
         image:
-            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Choking%2FChokingStep2.png?alt=media&token=7752fa03-8a1b-46c2-8baf-9a6015399c1c",
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep2.png?alt=media&token=5b4c60ea-3896-4a20-a4c4-420b20235ef6",
     },
     {
-        text: "Da 5 golpes fuertes en la espalda entre los omóplatos con el talón de tu mano.",
+        text: "No provoques el vómito a menos que lo indique un profesional de salud.",
         image:
-            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Choking%2FChokingStep3.png?alt=media&token=bfe7c25d-67f4-49ec-9c3c-2a03d0d37c88",
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep3.png?alt=media&token=fbfc6585-2f40-44cc-a3e0-3b08ff9f0b6a",
     },
     {
-        text: "Si no se libera, realiza la maniobra de Heimlich: abraza por detrás a la persona, coloca tu puño sobre su abdomen (por encima del ombligo) y empuja con fuerza hacia adentro y arriba.",
+        text: "Mantén a la persona en reposo, despierta y vigilada mientras llega ayuda.",
         image:
-            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Choking%2FChokingStep4.png?alt=media&token=9db1ef63-08a8-41a5-9993-6a2a41a7c8a7",
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep4.png?alt=media&token=4b9e3d35-1be1-4c26-961f-99b8c91e8d20",
     },
     {
-        text: "Alterna 5 golpes en la espalda con 5 compresiones abdominales hasta que el objeto salga o la persona recupere la respiración.",
+        text: "Si inhaló un gas tóxico, trasládala a un lugar con aire fresco lo antes posible.",
         image:
-            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Choking%2FChokingStep5.png?alt=media&token=4579f1fa-bfc1-4bb8-8971-3aa0c289da7f",
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep5.png?alt=media&token=2961bdea-b41f-4d95-98f1-dc91d33466ec",
     },
     {
-        text: "Si la persona pierde el conocimiento, colócala en el suelo y comienza reanimación cardiopulmonar (RCP).",
+        text: "Llama al 911 o al centro de toxicología más cercano e informa lo que ocurrió.",
         image:
-            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Choking%2FChokingStep6.png?alt=media&token=5b24554a-8e18-47d7-a5cd-05e50d99a62d",
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep6.png?alt=media&token=7b97c50d-b914-4457-b4dc-d47b0de6b79f",
+    },
+    {
+        text: "Guarda el envase o resto de la sustancia para mostrarlo al personal médico.",
+        image:
+            "https://firebasestorage.googleapis.com/v0/b/quick-care-project.firebasestorage.app/o/Poisoning%2FPoisoningStep7.png?alt=media&token=cc16ff6f-4b78-4294-a7a7-c6a168623622",
     },
 ];
 
