@@ -6,6 +6,7 @@ import EmergencyHomeScreen from "./src/screens/EmergencyHomeScreen";
 import EducationHomeScreen from "./src/screens/EducationHomeScreen";
 import SplashScreen from "./src/screens/SplashScreen";
 import HospitalMapScreen from "./src/screens/HospitalMapScreen";
+import FaintingScreen from "./src/screens/Emergencys/FaintingScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -37,6 +38,11 @@ export default function App() {
           name="HospitalMap"
           component={HospitalMapScreen}
           options={{ title: "Hospitales Cercanos" }}
+        />
+        <Stack.Screen
+          name="Fainting"
+          component={FaintingScreen}
+          options={{ title: "Desmayo" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
