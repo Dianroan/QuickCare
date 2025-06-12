@@ -42,7 +42,7 @@ const EmergencyStepScreen = ({ title, steps, onFinish, navigation }) => {
 
       <ScrollView contentContainerStyle={styles.card}>
         {currentStep.image && (
-          <Image source={{ uri: currentStep.image }} style={styles.image} resizeMode="cover" />
+          <Image source={currentStep.image} style={styles.image} resizeMode="cover" />
         )}
         <Text style={styles.stepText}>{currentStep.text}</Text>
 
