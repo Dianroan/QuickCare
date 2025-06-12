@@ -15,6 +15,8 @@ import IntoxicationScreen from "./src/screens/Emergencys/IntoxicationScreen";
 import SuffocationScreen from "./src/screens/Emergencys/SuffocationScreen";
 import ElectrocutionScreen from "./src/screens/Emergencys/ElectrocutionScreen";
 import HeartAttackScreen from "./src/screens/Emergencys/HeartAttackScreen";
+import LessonScreen from "./src/screens/LessonScreen";
+import LessonQuizScreen from "./src/screens/LessonQuizScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -92,6 +94,13 @@ export default function App() {
           component={HeartAttackScreen}
           options={{ title: "Infarto" }}
         />
+        <Stack.Screen
+          name="LessonQuiz"
+          component={LessonQuizScreen}
+          options={{ title: "Lección Interactiva" }}
+        />
+
+        <Stack.Screen name="Lección" component={LessonScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

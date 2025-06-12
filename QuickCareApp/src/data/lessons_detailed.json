@@ -1,0 +1,912 @@
+[
+  {
+    "id": "bleeding",
+    "title": "Heridas y Hemorragias",
+    "color": "#e74c3c",
+    "sections": [
+      {
+        "info": "Ante una herida sangrante, lo primero es protegerte. Usa guantes o cúbrete las manos con una tela limpia para evitar infecciones.",
+        "question": {
+          "text": "¿Qué debes hacer primero ante una herida sangrante?",
+          "options": [
+            "Llamar al 911",
+            "Poner alcohol en la herida",
+            "Cubrir tus manos",
+            "Aplicar presión"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Aplica presión directa sobre la herida usando una gasa o paño limpio. Esto ayuda a controlar el sangrado.",
+        "question": {
+          "text": "¿Cuál es el objetivo de aplicar presión directa sobre la herida?",
+          "options": [
+            "Limpiar la herida",
+            "Controlar el sangrado",
+            "Evitar el dolor",
+            "Cubrir la herida completamente"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Si la gasa se empapa de sangre, no la retires. Coloca otra encima y continúa presionando para no interrumpir la coagulación.",
+        "question": {
+          "text": "¿Qué se debe hacer si la gasa se empapa de sangre?",
+          "options": [
+            "Cambiarla por una nueva",
+            "Colocar otra encima",
+            "Retirarla por completo",
+            "Poner alcohol"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Si puedes, eleva la parte del cuerpo afectada por encima del nivel del corazón. Esto ayuda a reducir el flujo sanguíneo.",
+        "question": {
+          "text": "¿Cuál es el propósito de elevar la zona afectada?",
+          "options": [
+            "Disminuir el dolor",
+            "Acelerar la recuperación",
+            "Reducir el flujo sanguíneo",
+            "Evitar infecciones"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Cuándo debes llamar al 911?",
+        "options": [
+          "Siempre que haya sangre",
+          "Cuando la persona pierda el conocimiento o el sangrado no se detiene",
+          "Cuando no tienes guantes",
+          "Después de aplicar alcohol"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué pasa si retiras la gasa empapada?",
+        "options": [
+          "No pasa nada",
+          "Se interrumpe la coagulación",
+          "Se limpia mejor la herida",
+          "El sangrado se detiene más rápido"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué no debes hacer al ver sangre?",
+        "options": [
+          "Cubrir tus manos",
+          "Salir corriendo",
+          "Aplicar presión",
+          "Colocar una gasa"
+        ],
+        "answerIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "burns",
+    "title": "Quemaduras",
+    "color": "#e67e22",
+    "sections": [
+      {
+        "info": "Las quemaduras deben enfriarse inmediatamente con agua fresca durante al menos 10 minutos para reducir el daño tisular.",
+        "question": {
+          "text": "¿Cuál es el primer paso al tratar una quemadura?",
+          "options": [
+            "Aplicar hielo",
+            "Cubrir con un paño seco",
+            "Aplicar crema",
+            "Enfriar con agua fresca"
+          ],
+          "answerIndex": 3
+        }
+      },
+      {
+        "info": "No revientes ampollas causadas por quemaduras. Estas protegen la piel contra infecciones.",
+        "question": {
+          "text": "¿Qué se debe hacer con las ampollas?",
+          "options": [
+            "Reventarlas con una aguja esterilizada",
+            "Cubrirlas con una venda",
+            "Dejarlas intactas",
+            "Lavar con alcohol"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Después de enfriar la quemadura, cúbrela con una gasa estéril o paño limpio sin aplicar ungüentos.",
+        "question": {
+          "text": "¿Con qué se debe cubrir una quemadura tras enfriarla?",
+          "options": [
+            "Con una venda adhesiva",
+            "Con una gasa estéril",
+            "Con algodón",
+            "Con toallas húmedas"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Busca atención médica si la quemadura es extensa, en zonas sensibles o si la persona muestra signos de shock.",
+        "question": {
+          "text": "¿Cuándo debes buscar atención médica urgente por quemaduras?",
+          "options": [
+            "Si hay dolor",
+            "Si hay enrojecimiento",
+            "Si es extensa o en zonas sensibles",
+            "Si se forma costra"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué no se debe aplicar en una quemadura?",
+        "options": [
+          "Agua fresca",
+          "Crema dental",
+          "Gasa estéril",
+          "Ninguna de las anteriores"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué puede indicar la necesidad de atención médica inmediata?",
+        "options": [
+          "Ampollas pequeñas",
+          "Dolor leve",
+          "Shock o dificultad respiratoria",
+          "Piel roja"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Por qué es importante enfriar la quemadura rápidamente?",
+        "options": [
+          "Para aliviar el dolor solamente",
+          "Para evitar la formación de ampollas",
+          "Para reducir el daño a los tejidos",
+          "Para cerrar la herida"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "cpr",
+    "title": "RCP",
+    "color": "#c0392b",
+    "sections": [
+      {
+        "info": "La RCP (Reanimación Cardiopulmonar) se aplica cuando una persona no respira y no responde. Es una técnica vital para mantener el flujo sanguíneo al cerebro.",
+        "question": {
+          "text": "¿Cuándo debe aplicarse RCP?",
+          "options": [
+            "Cuando la persona respira con dificultad",
+            "Cuando hay una herida grave",
+            "Cuando no responde ni respira",
+            "Después de un desmayo"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Para aplicar compresiones, coloca tus manos en el centro del pecho y presiona fuerte y rápido, a un ritmo de 100-120 compresiones por minuto.",
+        "question": {
+          "text": "¿Dónde se colocan las manos para hacer compresiones en RCP?",
+          "options": [
+            "Sobre el abdomen",
+            "Sobre el esternón",
+            "Sobre el cuello",
+            "En el hombro"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Cada ciclo completo incluye 30 compresiones y 2 respiraciones de rescate. Asegúrate de abrir bien las vías respiratorias.",
+        "question": {
+          "text": "¿Cuántas compresiones y respiraciones incluye un ciclo de RCP?",
+          "options": [
+            "15 y 2",
+            "20 y 1",
+            "30 y 2",
+            "40 y 3"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "No interrumpas la RCP hasta que llegue ayuda, la persona respire, o estés físicamente agotado.",
+        "question": {
+          "text": "¿Cuándo se debe interrumpir la RCP?",
+          "options": [
+            "Cuando te sientas cansado",
+            "Cuando llega ayuda o la persona respira",
+            "Después de 5 minutos",
+            "Si no hay mejora"
+          ],
+          "answerIndex": 1
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Cuál es el ritmo adecuado de compresiones por minuto?",
+        "options": [
+          "60-80",
+          "100-120",
+          "140-160",
+          "80-100"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué se debe hacer antes de dar respiraciones de rescate?",
+        "options": [
+          "Presionar el abdomen",
+          "Dar dos golpes en la espalda",
+          "Abrir las vías respiratorias",
+          "Colocar una máscara"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Qué parte del cuerpo recibe las compresiones?",
+        "options": [
+          "Tórax",
+          "Cuello",
+          "Cabeza",
+          "Pierna"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "seizures",
+    "title": "Convulsiones",
+    "color": "#9b59b6",
+    "sections": [
+      {
+        "info": "Durante una convulsión, mantén la calma y no intentes sujetar a la persona. Asegura el entorno para evitar lesiones.",
+        "question": {
+          "text": "¿Qué debes hacer durante una convulsión?",
+          "options": [
+            "Sujetar fuertemente a la persona",
+            "Darle agua",
+            "Asegurar el entorno",
+            "Colocar un objeto en su boca"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Coloca a la persona de lado si es posible, para evitar que se ahogue con saliva o vómito.",
+        "question": {
+          "text": "¿Por qué se coloca de lado a una persona con convulsión?",
+          "options": [
+            "Para dormirla",
+            "Para evitar que se muerda",
+            "Para que respire mejor",
+            "Para evitar asfixia"
+          ],
+          "answerIndex": 3
+        }
+      },
+      {
+        "info": "Nunca pongas objetos en la boca de la persona durante una convulsión. Esto puede causar más daño.",
+        "question": {
+          "text": "¿Qué no debe hacerse durante una convulsión?",
+          "options": [
+            "Colocar algo en la boca",
+            "Alejar objetos peligrosos",
+            "Colocar de lado",
+            "Esperar que pase"
+          ],
+          "answerIndex": 0
+        }
+      },
+      {
+        "info": "Llama a emergencias si la convulsión dura más de 5 minutos o si la persona no recupera el conocimiento.",
+        "question": {
+          "text": "¿Cuándo se debe llamar a emergencias en una convulsión?",
+          "options": [
+            "Después de un minuto",
+            "Si es la primera vez",
+            "Si dura más de 5 minutos",
+            "Siempre"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué posición es más segura para la persona durante una convulsión?",
+        "options": [
+          "Boca arriba",
+          "De pie",
+          "Sentado",
+          "De lado"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "text": "¿Qué se busca evitar al colocar de lado al paciente?",
+        "options": [
+          "Que muerda la lengua",
+          "Que pierda el conocimiento",
+          "Que se ahogue con saliva",
+          "Que convulsione más"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Cuál de estas acciones puede ser peligrosa?",
+        "options": [
+          "Colocar de lado",
+          "No intervenir",
+          "Poner objetos en la boca",
+          "Llamar al 911"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "choking",
+    "title": "Atragantamiento",
+    "color": "#3498db",
+    "sections": [
+      {
+        "info": "El atragantamiento ocurre cuando un objeto bloquea la vía aérea. Es urgente actuar si la persona no puede hablar o respirar.",
+        "question": {
+          "text": "¿Qué indica un atragantamiento severo?",
+          "options": [
+            "Dolor de garganta",
+            "Dificultad leve al tragar",
+            "Incapacidad de hablar o respirar",
+            "Náuseas"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Pide a la persona que tosa con fuerza si puede. Si no puede, realiza la maniobra de Heimlich.",
+        "question": {
+          "text": "¿Qué debes hacer si la persona no puede toser ni respirar?",
+          "options": [
+            "Darle agua",
+            "Pedir que respire hondo",
+            "Llamar al 911 y hacer la maniobra de Heimlich",
+            "Golpearla en la espalda"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Para hacer la maniobra de Heimlich, colócate detrás de la persona, rodea su abdomen y aplica presión rápida hacia arriba.",
+        "question": {
+          "text": "¿Dónde se aplica presión en la maniobra de Heimlich?",
+          "options": [
+            "En el pecho",
+            "En el abdomen, por debajo de las costillas",
+            "En la espalda",
+            "En el cuello"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Si la persona pierde el conocimiento, inicia RCP y revisa la boca antes de dar ventilaciones.",
+        "question": {
+          "text": "¿Qué hacer si la persona pierde el conocimiento durante el atragantamiento?",
+          "options": [
+            "Golpearla en el pecho",
+            "Esperar a que se recupere sola",
+            "Iniciar RCP",
+            "Llamar al vecino"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué maniobra se usa para desobstruir la vía aérea?",
+        "options": [
+          "Maniobra de Rautek",
+          "Maniobra de Heimlich",
+          "Maniobra de Smith",
+          "Maniobra de Reanimación"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué debes hacer si el objeto no sale tras varios intentos?",
+        "options": [
+          "Darle agua",
+          "Seguir insistiendo con Heimlich",
+          "Iniciar RCP si se desmaya",
+          "Esperar"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Cuándo debes revisar la boca de la persona?",
+        "options": [
+          "Al iniciar RCP",
+          "Durante la maniobra",
+          "Después de 1 minuto",
+          "Nunca"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "fractures",
+    "title": "Fracturas",
+    "color": "#16a085",
+    "sections": [
+      {
+        "info": "Una fractura puede sospecharse si hay dolor intenso, deformidad o imposibilidad de mover una extremidad tras un golpe.",
+        "question": {
+          "text": "¿Qué indica una posible fractura?",
+          "options": [
+            "Dolor leve",
+            "Moretón superficial",
+            "Deformidad y dolor intenso",
+            "Hinchazón leve"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Inmoviliza la extremidad afectada sin intentar alinear el hueso. Esto ayuda a evitar mayor daño.",
+        "question": {
+          "text": "¿Qué debe hacerse con la extremidad fracturada?",
+          "options": [
+            "Intentar acomodarla",
+            "Inmovilizarla sin moverla",
+            "Cubrirla con hielo",
+            "Masajearla"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Aplica hielo sobre la zona para reducir la inflamación, sin contacto directo con la piel.",
+        "question": {
+          "text": "¿Cómo debe aplicarse el hielo en una fractura?",
+          "options": [
+            "Directamente sobre la piel",
+            "Con una toalla entre el hielo y la piel",
+            "Solo si hay herida",
+            "Durante 1 hora continua"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Evita mover a la persona si sospechas de fractura en columna. Llama a emergencias inmediatamente.",
+        "question": {
+          "text": "¿Qué debes evitar si hay sospecha de fractura en la columna?",
+          "options": [
+            "Hablarle al paciente",
+            "Aplicar hielo",
+            "Moverlo",
+            "Cubrirlo con una manta"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué se usa para inmovilizar una fractura?",
+        "options": [
+          "Un vendaje flojo",
+          "Un cojín",
+          "Una férula o soporte",
+          "Hielo directo"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Qué no debe hacerse con un hueso fracturado?",
+        "options": [
+          "Inmovilizarlo",
+          "Aplicar hielo",
+          "Intentar alinearlo",
+          "Cubrirlo"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Qué hacer si hay fractura en columna?",
+        "options": [
+          "Sentarlo con cuidado",
+          "Acostarlo boca abajo",
+          "No moverlo y llamar al 911",
+          "Ponerlo de pie lentamente"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "intoxication",
+    "title": "Intoxicaciones",
+    "color": "#2c3e50",
+    "sections": [
+      {
+        "info": "Las intoxicaciones pueden ser por ingestión, inhalación o contacto con sustancias tóxicas. Identifica el agente si es posible.",
+        "question": {
+          "text": "¿Cuál es una forma común de intoxicación?",
+          "options": [
+            "Deshidratación",
+            "Inhalación de humo",
+            "Golpe en la cabeza",
+            "Picadura"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "No induzcas el vómito a menos que lo indique personal médico. Podrías agravar la situación.",
+        "question": {
+          "text": "¿Cuándo debe inducirse el vómito en una intoxicación?",
+          "options": [
+            "Siempre",
+            "Nunca",
+            "Solo por orden médica",
+            "Cuando el paciente esté consciente"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Si la sustancia fue inhalada, traslada al afectado a un lugar ventilado inmediatamente.",
+        "question": {
+          "text": "¿Qué hacer ante una intoxicación por inhalación?",
+          "options": [
+            "Esperar",
+            "Dar agua",
+            "Llevar a un lugar ventilado",
+            "Cubrir con una manta"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Llama a emergencias proporcionando toda la información disponible sobre la sustancia.",
+        "question": {
+          "text": "¿Qué debes decir al llamar al 911?",
+          "options": [
+            "El nombre del paciente",
+            "El color del vómito",
+            "La sustancia y síntomas",
+            "Su grupo sanguíneo"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué puede agravar una intoxicación por químicos?",
+        "options": [
+          "Beber agua",
+          "Inducir el vómito",
+          "Ventilar el lugar",
+          "Cubrir al paciente"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué es importante saber en una intoxicación?",
+        "options": [
+          "Qué comió ayer",
+          "El nombre del médico",
+          "El agente causante",
+          "La edad del paciente"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Qué tipo de intoxicación requiere aire fresco inmediato?",
+        "options": [
+          "Por contacto",
+          "Por ingestión",
+          "Por inhalación",
+          "Por picadura"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "electrocution",
+    "title": "Electrocución",
+    "color": "#f1c40f",
+    "sections": [
+      {
+        "info": "Antes de ayudar a una persona electrocutada, asegúrate de cortar la fuente de electricidad para evitar más lesiones.",
+        "question": {
+          "text": "¿Qué es lo primero que debes hacer ante una electrocución?",
+          "options": [
+            "Tocar a la persona",
+            "Llamar al 911",
+            "Cortar la electricidad",
+            "Darle agua"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "No toques a la persona si aún está en contacto con la corriente. Usa objetos no conductores si necesitas separarla.",
+        "question": {
+          "text": "¿Cómo puedes separar a alguien de la fuente eléctrica?",
+          "options": [
+            "Con las manos",
+            "Con agua",
+            "Con un palo de madera",
+            "Con un metal"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Después de la desconexión, verifica si la persona respira y responde. Si no, inicia RCP.",
+        "question": {
+          "text": "¿Qué hacer si la persona no respira después de una electrocución?",
+          "options": [
+            "Esperar a que despierte",
+            "Iniciar RCP",
+            "Dar palmadas",
+            "Moverla bruscamente"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Llama a emergencias de inmediato. Las lesiones internas por electricidad pueden no ser visibles.",
+        "question": {
+          "text": "¿Por qué es importante llamar al 911 tras una electrocución?",
+          "options": [
+            "Porque es protocolo",
+            "Por posibles daños internos",
+            "Para tranquilizar al paciente",
+            "Para obtener receta"
+          ],
+          "answerIndex": 1
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué objeto es seguro para separar a una persona de la corriente?",
+        "options": [
+          "Palo de madera",
+          "Cuchara",
+          "Cuerda mojada",
+          "Cable eléctrico"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "text": "¿Cuál es un peligro oculto tras una electrocución?",
+        "options": [
+          "Quemaduras visibles",
+          "Lesiones internas",
+          "Grito fuerte",
+          "Ropa mojada"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué hacer si la persona electrocutada respira?",
+        "options": [
+          "No hacer nada",
+          "Moverla inmediatamente",
+          "Llevarla al hospital igual",
+          "Darle comida"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "heart_attack",
+    "title": "Infarto",
+    "color": "#d35400",
+    "sections": [
+      {
+        "info": "Un infarto ocurre cuando se bloquea el flujo sanguíneo al corazón. Puede causar daño permanente si no se trata rápidamente.",
+        "question": {
+          "text": "¿Qué ocurre durante un infarto?",
+          "options": [
+            "El corazón se detiene completamente",
+            "Hay un bloqueo del flujo al corazón",
+            "Los pulmones dejan de funcionar",
+            "La sangre se oxigena mejor"
+          ],
+          "answerIndex": 1
+        }
+      },
+      {
+        "info": "Los síntomas incluyen dolor en el pecho, dificultad para respirar, sudoración y náuseas.",
+        "question": {
+          "text": "¿Cuál de estos es un síntoma común de infarto?",
+          "options": [
+            "Dolor en el pecho",
+            "Dolor de cabeza",
+            "Dolor de oído",
+            "Picazón en la piel"
+          ],
+          "answerIndex": 0
+        }
+      },
+      {
+        "info": "Mantén a la persona en reposo y llama inmediatamente al 911. No le permitas caminar ni moverse mucho.",
+        "question": {
+          "text": "¿Qué debe hacerse mientras llega la ayuda?",
+          "options": [
+            "Pedirle que camine",
+            "Darle un masaje",
+            "Mantenerlo en reposo y llamar al 911",
+            "Colocarlo boca abajo"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Si la persona pierde el conocimiento y no respira, inicia maniobras de RCP.",
+        "question": {
+          "text": "¿Qué hacer si la persona con infarto no responde?",
+          "options": [
+            "Esperar a la ambulancia",
+            "Iniciar RCP",
+            "Agitarla fuertemente",
+            "Darle agua"
+          ],
+          "answerIndex": 1
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Cuál es una señal de alerta de infarto?",
+        "options": [
+          "Dolor muscular",
+          "Dolor en el pecho",
+          "Picazón",
+          "Fiebre"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué NO se debe hacer durante un infarto?",
+        "options": [
+          "Llamar al 911",
+          "Reposar",
+          "Permitir que camine",
+          "Mantener la calma"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "text": "¿Qué hacer si no hay respiración?",
+        "options": [
+          "Dar de beber",
+          "Iniciar RCP",
+          "Llamar a un familiar",
+          "Usar medicamentos"
+        ],
+        "answerIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "cardiac_arrest",
+    "title": "Paro cardiorrespiratorio",
+    "color": "#34495e",
+    "sections": [
+      {
+        "info": "En un paro cardiorrespiratorio, el corazón deja de latir y la persona deja de respirar. Es una emergencia crítica.",
+        "question": {
+          "text": "¿Qué ocurre en un paro cardiorrespiratorio?",
+          "options": [
+            "El corazón late rápido",
+            "La persona respira pero está inconsciente",
+            "El corazón y la respiración se detienen",
+            "Solo hay desmayo leve"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Actúa rápido: llama al 911 y comienza maniobras de RCP de inmediato.",
+        "question": {
+          "text": "¿Qué se debe hacer primero en un paro cardiorrespiratorio?",
+          "options": [
+            "Esperar ayuda médica",
+            "Pedir que respire profundo",
+            "Llamar al 911 e iniciar RCP",
+            "Colocar compresas frías"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "Usar un desfibrilador (DEA) si está disponible aumenta las probabilidades de supervivencia.",
+        "question": {
+          "text": "¿Qué herramienta puede salvar la vida en un paro si se usa pronto?",
+          "options": [
+            "Oxímetro",
+            "Tensiómetro",
+            "Desfibrilador (DEA)",
+            "Termómetro"
+          ],
+          "answerIndex": 2
+        }
+      },
+      {
+        "info": "No te detengas hasta que llegue ayuda o la persona recupere signos vitales.",
+        "question": {
+          "text": "¿Cuándo detener la RCP?",
+          "options": [
+            "Después de 2 minutos",
+            "Cuando te lo indique el 911",
+            "Cuando llegue ayuda o haya signos de vida",
+            "Si sudas mucho"
+          ],
+          "answerIndex": 2
+        }
+      }
+    ],
+    "finalQuestions": [
+      {
+        "text": "¿Qué herramienta ayuda a restaurar el ritmo cardíaco?",
+        "options": [
+          "Estetoscopio",
+          "DEA",
+          "Oxímetro",
+          "Masaje cardíaco"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué no puede faltar en un paro cardiorrespiratorio?",
+        "options": [
+          "Masaje",
+          "RCP y llamada al 911",
+          "Papel y lápiz",
+          "Toalla húmeda"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "text": "¿Qué indica que debes detener la RCP?",
+        "options": [
+          "La persona respira o llega ayuda",
+          "Te duele la espalda",
+          "Ya pasaron 3 minutos",
+          "Estás cansado"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  }
+]
